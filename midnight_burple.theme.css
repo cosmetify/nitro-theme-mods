@@ -27,3 +27,7 @@ div[class*="hoverButtonGroup-"] {
 div[class*="attachment-"] {
     background: #211d5254 !important;
 }
+
+div[id*="message-accessories-"] div[class*="wrapper-"] {
+    background: #322b7960;
+}
