@@ -1,0 +1,29 @@
+article {
+    background: #00000038 !important;
+}
+
+div[class*="reaction-"] {
+    background: #52525231 !important;
+}
+
+div[class*="jumpToPresentBar"] {
+    background: #35345c;
+}
+
+div[class*="newMessagesBar"] {
+    background: #234a61;
+}
+
+li[class*="upload-"] {
+    background: #00000052;
+}
+
+div[class*="actionBar-"] div[class*="button-"],
+div[class*="buttons-"] div[class*="wrapper-"],
+div[class*="hoverButtonGroup-"] {
+    background: #1d3d50;
+}
+
+div[class*="attachment-"] {
+    background: #1d2e5254 !important;
+}
