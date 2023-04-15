@@ -31,3 +31,7 @@ div[class*="attachment-"] {
 div[id*="message-accessories-"] div[class*="wrapper-"] {
     background: #322b7960;
 }
+
+code {
+    background: #0a091b !important;
+}
