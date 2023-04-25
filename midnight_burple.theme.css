@@ -2,6 +2,31 @@ article {
     background: #00000038 !important;
 }
 
+/* hide gift button */
+button:has(path[d*="M16.886 7.999H20C21.104 7.999"]) {
+    display: none;
+}
+
+code {
+    background: #0a091b !important;
+}
+
+code[class="inline"] {
+    background: #342a61 !important;
+}
+
+div[class*="itemCard"] {
+    background: #1f1b4765;
+}
+
+div[class*="itemCard"]:hover {
+    background: #080718 !important;
+}
+
+div[aria-roledescription="Open Thread Button"] {
+    background: #1c133b;
+}
+
 div[class*="reaction-"] {
     background: #52525231 !important;
 }
@@ -12,10 +37,6 @@ div[class*="jumpToPresentBar"] {
 
 div[class*="newMessagesBar"] {
     background: #4e45cc;
-}
-
-li[class*="upload-"] {
-    background: #00000052;
 }
 
 div[class*="actionBar-"] div[class*="button-"],
@@ -32,6 +53,10 @@ div[id*="message-accessories-"] div[class*="wrapper-"] {
     background: #322b7960;
 }
 
-code {
-    background: #0a091b !important;
+li[class*="upload-"] {
+    background: #00000052;
+}
+
+section[class*="section"] {
+    background: #1c1a35;
 }
